@@ -1,0 +1,13 @@
+@import '../global/variables.module.scss';
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+  margin: 0 auto;
+
+  .favIcon {
+    color: $color-orange;
+    font-size: 40px;
+  }
+}

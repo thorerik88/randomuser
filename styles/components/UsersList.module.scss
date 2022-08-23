@@ -1,0 +1,22 @@
+@import '../global/variables.module.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+  max-width: 1300px;
+  margin: 50px auto 0;
+
+  .wrapper {
+    margin: 20px;
+  }
+
+  .wrapper:first-of-type {
+    flex: 4;
+  }
+
+  .wrapper:last-of-type {
+    flex: 1;
+  }
+}

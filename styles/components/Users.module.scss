@@ -1,0 +1,53 @@
+@import '../global/variables.module.scss';
+
+.wrapper {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
+
+  .personBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    margin: 20px;
+
+    .favIcon {
+      position: absolute;
+      right: 0;
+      font-size: 25px;
+      color: grey;
+    }
+
+    .favIconActive {
+      position: absolute;
+      right: 0;
+      font-size: 25px;
+      color: green;
+    }
+
+    img {
+      border-radius: 100%;
+      width: 150px;
+      height: 150px;
+    }
+
+    .personDetails {
+      display: flex;
+      border: none;
+      
+      p {
+        margin: 5px 0;
+      }
+
+      .detailsHeading {
+        margin-right: 5px;
+        font-weight: 700;
+      }
+
+      .detailsInfo p:first-of-type {
+        font-weight: 500;
+      }
+    }
+  }
+}
